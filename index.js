@@ -7,7 +7,7 @@ client.once('ready', () => {
     client.user.setActivity(' h!help |')
   });
 
-client.login('ODMwMTg1OTgxOTk0NzI5NTA0.YHDA8g.LLUXntz5pgdlasQBfccPN45E46Q');
+client.login('');
 
 client.on("message", message => {
     if (message.content.startsWith("!clear")) {
